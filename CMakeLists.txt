@@ -15,7 +15,7 @@ list(APPEND BOOST_COMPONENTS thread
         unit_test_framework
         locale)
 
-option(Boost_USE_STATIC_LIBS "Build with Boost static libraries usage" TRUE)
+option(Boost_USE_STATIC_LIBS "Build with Boost static libraries usage" FALSE)
 
 option(BUILD_SHARED_LIBRARIES "Build shared libraries" TRUE)
 
